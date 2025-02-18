@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+
+    <header class="header"></header>
+    <div class="container">
+        <nav class="header__nav">
+            <a href="./index.html">
+                <img src="./images/logo.png" alt="">
+            </a>
+            <div class="header__wrapper">
+                <img src="./images/internet.svg" alt="">
+                <button class="language">O'zb</button>
+            </div>
+            <button class="reset">Log out</button>
+            <button class="btn__shop">Home</button>
+            <button class="btn__shop">Learning</button>
+            <button class="btn__shop" id="shop">Shop</button>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <div class="wrapper">
+                <form action="" id="shopForm">
+                    <input id="shopInput" type="text" placeholder="Enter your product ..." class="input--shop">
+                    <button type="submit" class="btn__shop">Search</button>
+                </form>
+            </div>
+            <div id="shop__wrapper">
+
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+    <script src="./dbjson.js"></script>
+    <script src="./shop.js"></script>
+</body>
+</html>
